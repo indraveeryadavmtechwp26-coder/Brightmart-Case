@@ -36,4 +36,4 @@ st.write(input_data)
 # Make prediction
 if st.button("Predict Sales"):
     prediction = model.predict(input_data)
-    st.success(f"Predicted Sales: **{prediction[0]:.2f}** units")
+    st.success(f"Predicted Sales: **{prediction[0]:.2f}** Milion")
